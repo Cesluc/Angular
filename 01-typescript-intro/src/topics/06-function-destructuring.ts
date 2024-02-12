@@ -25,7 +25,7 @@ interface TaxCalculationOptions {
 // function taxCalculation({ tax, products }: TaxCalculationOptions): [number, number] {
 function taxCalculation(options: TaxCalculationOptions): [number, number] {
 
-const {tax, products} = `options;
+const {tax, products} = options;
 
     let total = 0;
 
