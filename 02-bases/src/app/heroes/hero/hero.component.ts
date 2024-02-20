@@ -23,7 +23,7 @@ export class HeroComponent {
   }
 
   changeAge():void {
-    this.age = 45;
+    this.age = 25;
   }
 
 }
